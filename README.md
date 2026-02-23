@@ -8,6 +8,7 @@
 
 <p align="center">
   <a href="https://www.npmjs.com/package/@ez-cook/nano-peaces"><img src="https://img.shields.io/npm/v/@ez-cook/nano-peaces.svg?style=flat-square&color=06b6d4" alt="npm version" /></a>
+  <a href="https://github.com/ez-cook/nano-peaces/actions/workflows/ci.yml"><img src="https://img.shields.io/github/actions/workflow/status/ez-cook/nano-peaces/ci.yml?style=flat-square&label=CI" alt="CI" /></a>
   <a href="https://github.com/ez-cook/nano-peaces/blob/main/LICENSE"><img src="https://img.shields.io/badge/license-MIT-0f172a.svg?style=flat-square" alt="license" /></a>
 </p>
 
