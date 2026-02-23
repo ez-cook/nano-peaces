@@ -1,0 +1,56 @@
+{
+  "version": "0.1.0",
+  "skills": [
+    {
+      "id": "shadcn-ui",
+      "description": "Expert shadcn/ui knowledge for AI agents (2026)",
+      "signals": {
+        "dependencies": [
+          "radix-ui",
+          "@radix-ui/*",
+          "@base-ui-components/*",
+          "tailwindcss",
+          "class-variance-authority",
+          "tailwind-merge",
+          "clsx",
+          "lucide-react",
+          "@tabler/icons-react",
+          "tw-animate-css"
+        ],
+        "filePatterns": ["**/components/ui/**", "**/ui/*.tsx", "**/ui/*.jsx", "components.json"],
+        "keywords": [
+          "shadcn",
+          "button variant",
+          "dialog",
+          "sheet",
+          "command palette",
+          "combobox",
+          "data table",
+          "form validation",
+          "sidebar",
+          "dropdown",
+          "field component",
+          "sonner toast",
+          "asChild",
+          "cn() utility"
+        ],
+        "taskIntent": [
+          "create component",
+          "build form",
+          "add UI element",
+          "style component",
+          "add dialog",
+          "create table",
+          "setup shadcn",
+          "add shadcn component",
+          "add sidebar",
+          "dark mode",
+          "build data table",
+          "add toast notification"
+        ]
+      },
+      "priority": 1,
+      "skillPath": "shadcn-ui/SKILL.md"
+    }
+  ]
+}

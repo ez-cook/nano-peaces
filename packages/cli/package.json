@@ -1,0 +1,54 @@
+{
+  "name": "@ez-cook/nano-peaces",
+  "version": "0.1.0",
+  "description": "The missing UI skills pack for AI agents",
+  "type": "module",
+  "bin": {
+    "nano-peaces": "./dist/index.js"
+  },
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist",
+    "skills",
+    "README.md"
+  ],
+  "scripts": {
+    "build": "tsup && node scripts/copy-skills.js",
+    "dev": "tsup --watch",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "commander": "^13.0.0",
+    "@clack/prompts": "^0.9.0",
+    "fast-glob": "^3.3.0",
+    "fs-extra": "^11.2.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.7.0",
+    "tsup": "^8.4.0",
+    "@types/fs-extra": "^11.0.0",
+    "@types/node": "^22.0.0"
+  },
+  "keywords": [
+    "ai",
+    "agent",
+    "ui",
+    "skills",
+    "shadcn",
+    "cli",
+    "antigravity",
+    "claude",
+    "cursor",
+    "ez-cook",
+    "nano-peaces"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ez-cook/nano-peaces"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}

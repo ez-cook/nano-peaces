@@ -1,0 +1,5 @@
+export { getAdapter } from './registry.js'
+export { AntigravityAdapter } from './antigravity.js'
+export { ClaudeCodeAdapter } from './claude-code.js'
+export { CursorAdapter } from './cursor.js'
+export { GenericAdapter } from './generic.js'

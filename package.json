@@ -1,0 +1,32 @@
+{
+  "name": "nano-peaces-monorepo",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "The missing UI skills pack for AI agents",
+  "scripts": {
+    "build": "pnpm -r run build",
+    "dev": "pnpm --filter @ez-cook/nano-peaces run dev",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "typecheck": "pnpm -r run typecheck",
+    "check": "pnpm lint && pnpm format:check && pnpm typecheck && pnpm test"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.39.3",
+    "@types/node": "^22.0.0",
+    "eslint": "^9.0.0",
+    "prettier": "^3.4.0",
+    "typescript": "^5.7.0",
+    "typescript-eslint": "^8.56.0",
+    "vitest": "^3.0.0"
+  },
+  "packageManager": "pnpm@9.15.0",
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
